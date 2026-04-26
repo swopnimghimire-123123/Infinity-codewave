@@ -1,0 +1,588 @@
+{
+  "sourceModel": "C:\\Users\\ACER\\OneDrive\\Desktop\\final infinity project\\backend\\__pycache__\\rl_traffic_model_balanced.json",
+  "generatedAt": "2026-04-25T22:55:09.962Z",
+  "results": {
+    "fixed": {
+      "episodes": [
+        {
+          "seed": 42,
+          "controller": "fixed",
+          "avgQueue": 1020.9544444444444,
+          "totalSwitches": 105,
+          "episodeReward": -51544.52500000008,
+          "totalVehiclesCleared": 4592,
+          "clearedPerLane": {
+            "NS": 1580,
+            "EW": 1560,
+            "NSL": 747,
+            "EWL": 705
+          },
+          "maxQueueSeen": 1962
+        },
+        {
+          "seed": 137,
+          "controller": "fixed",
+          "avgQueue": 950.2897222222222,
+          "totalSwitches": 105,
+          "episodeReward": -48500.22999999998,
+          "totalVehiclesCleared": 4665,
+          "clearedPerLane": {
+            "NS": 1580,
+            "EW": 1560,
+            "NSL": 740,
+            "EWL": 785
+          },
+          "maxQueueSeen": 1893
+        },
+        {
+          "seed": 256,
+          "controller": "fixed",
+          "avgQueue": 966.4352777777777,
+          "totalSwitches": 105,
+          "episodeReward": -48120.93499999996,
+          "totalVehiclesCleared": 4688,
+          "clearedPerLane": {
+            "NS": 1580,
+            "EW": 1560,
+            "NSL": 784,
+            "EWL": 764
+          },
+          "maxQueueSeen": 1889
+        },
+        {
+          "seed": 891,
+          "controller": "fixed",
+          "avgQueue": 987.0663888888889,
+          "totalSwitches": 105,
+          "episodeReward": -49382.039999999986,
+          "totalVehiclesCleared": 4600,
+          "clearedPerLane": {
+            "NS": 1581,
+            "EW": 1560,
+            "NSL": 742,
+            "EWL": 717
+          },
+          "maxQueueSeen": 1925
+        },
+        {
+          "seed": 1024,
+          "controller": "fixed",
+          "avgQueue": 959.4247222222223,
+          "totalSwitches": 105,
+          "episodeReward": -48738.9150000001,
+          "totalVehiclesCleared": 4666,
+          "clearedPerLane": {
+            "NS": 1584,
+            "EW": 1560,
+            "NSL": 763,
+            "EWL": 759
+          },
+          "maxQueueSeen": 1900
+        },
+        {
+          "seed": 2048,
+          "controller": "fixed",
+          "avgQueue": 995.3302777777777,
+          "totalSwitches": 105,
+          "episodeReward": -49814.7150000001,
+          "totalVehiclesCleared": 4654,
+          "clearedPerLane": {
+            "NS": 1582,
+            "EW": 1560,
+            "NSL": 743,
+            "EWL": 769
+          },
+          "maxQueueSeen": 1910
+        },
+        {
+          "seed": 3141,
+          "controller": "fixed",
+          "avgQueue": 936.5472222222222,
+          "totalSwitches": 105,
+          "episodeReward": -47093.14000000001,
+          "totalVehiclesCleared": 4554,
+          "clearedPerLane": {
+            "NS": 1581,
+            "EW": 1559,
+            "NSL": 706,
+            "EWL": 708
+          },
+          "maxQueueSeen": 1832
+        },
+        {
+          "seed": 5000,
+          "controller": "fixed",
+          "avgQueue": 982.5066666666667,
+          "totalSwitches": 105,
+          "episodeReward": -49283.34500000003,
+          "totalVehiclesCleared": 4655,
+          "clearedPerLane": {
+            "NS": 1578,
+            "EW": 1560,
+            "NSL": 789,
+            "EWL": 728
+          },
+          "maxQueueSeen": 1923
+        },
+        {
+          "seed": 7777,
+          "controller": "fixed",
+          "avgQueue": 977.8783333333333,
+          "totalSwitches": 105,
+          "episodeReward": -48625.47499999996,
+          "totalVehiclesCleared": 4604,
+          "clearedPerLane": {
+            "NS": 1583,
+            "EW": 1560,
+            "NSL": 744,
+            "EWL": 717
+          },
+          "maxQueueSeen": 1888
+        },
+        {
+          "seed": 9999,
+          "controller": "fixed",
+          "avgQueue": 957.1202777777778,
+          "totalSwitches": 105,
+          "episodeReward": -47603.44499999991,
+          "totalVehiclesCleared": 4639,
+          "clearedPerLane": {
+            "NS": 1583,
+            "EW": 1560,
+            "NSL": 766,
+            "EWL": 730
+          },
+          "maxQueueSeen": 1874
+        },
+        {
+          "seed": 1234,
+          "controller": "fixed",
+          "avgQueue": 982.0536111111111,
+          "totalSwitches": 105,
+          "episodeReward": -48944.765000000065,
+          "totalVehiclesCleared": 4659,
+          "clearedPerLane": {
+            "NS": 1582,
+            "EW": 1560,
+            "NSL": 753,
+            "EWL": 764
+          },
+          "maxQueueSeen": 1879
+        },
+        {
+          "seed": 5678,
+          "controller": "fixed",
+          "avgQueue": 986.1836111111111,
+          "totalSwitches": 105,
+          "episodeReward": -49042.924999999916,
+          "totalVehiclesCleared": 4658,
+          "clearedPerLane": {
+            "NS": 1582,
+            "EW": 1560,
+            "NSL": 790,
+            "EWL": 726
+          },
+          "maxQueueSeen": 1908
+        }
+      ],
+      "summary": {
+        "avgQueue": 975.1492129629631,
+        "avgSwitches": 105,
+        "avgReward": -48891.20458333334,
+        "throughput": 4636.166666666667,
+        "stdQueue": 21.669420308112215,
+        "stdSwitches": 0,
+        "stdReward": 1081.8542613523084,
+        "stdThroughput": 37.78410894660464
+      }
+    },
+    "adaptive": {
+      "episodes": [
+        {
+          "seed": 42,
+          "controller": "adaptive",
+          "avgQueue": 242.2747222222222,
+          "totalSwitches": 121,
+          "episodeReward": -11219.690000000026,
+          "totalVehiclesCleared": 6177,
+          "clearedPerLane": {
+            "NS": 2391,
+            "EW": 2338,
+            "NSL": 739,
+            "EWL": 709
+          },
+          "maxQueueSeen": 393
+        },
+        {
+          "seed": 137,
+          "controller": "adaptive",
+          "avgQueue": 196.97611111111112,
+          "totalSwitches": 120,
+          "episodeReward": -9811.269999999986,
+          "totalVehiclesCleared": 6197,
+          "clearedPerLane": {
+            "NS": 2356,
+            "EW": 2330,
+            "NSL": 717,
+            "EWL": 794
+          },
+          "maxQueueSeen": 370
+        },
+        {
+          "seed": 256,
+          "controller": "adaptive",
+          "avgQueue": 226.27305555555554,
+          "totalSwitches": 120,
+          "episodeReward": -10270.789999999994,
+          "totalVehiclesCleared": 6181,
+          "clearedPerLane": {
+            "NS": 2327,
+            "EW": 2314,
+            "NSL": 767,
+            "EWL": 773
+          },
+          "maxQueueSeen": 403
+        },
+        {
+          "seed": 891,
+          "controller": "adaptive",
+          "avgQueue": 215.74305555555554,
+          "totalSwitches": 122,
+          "episodeReward": -9873.029999999997,
+          "totalVehiclesCleared": 6171,
+          "clearedPerLane": {
+            "NS": 2376,
+            "EW": 2336,
+            "NSL": 741,
+            "EWL": 718
+          },
+          "maxQueueSeen": 354
+        },
+        {
+          "seed": 1024,
+          "controller": "adaptive",
+          "avgQueue": 215.36833333333334,
+          "totalSwitches": 121,
+          "episodeReward": -10855.00500000001,
+          "totalVehiclesCleared": 6185,
+          "clearedPerLane": {
+            "NS": 2360,
+            "EW": 2322,
+            "NSL": 741,
+            "EWL": 762
+          },
+          "maxQueueSeen": 383
+        },
+        {
+          "seed": 2048,
+          "controller": "adaptive",
+          "avgQueue": 244.2877777777778,
+          "totalSwitches": 120,
+          "episodeReward": -11400.530000000024,
+          "totalVehiclesCleared": 6193,
+          "clearedPerLane": {
+            "NS": 2336,
+            "EW": 2348,
+            "NSL": 729,
+            "EWL": 780
+          },
+          "maxQueueSeen": 378
+        },
+        {
+          "seed": 3141,
+          "controller": "adaptive",
+          "avgQueue": 173.96777777777777,
+          "totalSwitches": 124,
+          "episodeReward": -7982.115000000013,
+          "totalVehiclesCleared": 6133,
+          "clearedPerLane": {
+            "NS": 2345,
+            "EW": 2378,
+            "NSL": 693,
+            "EWL": 717
+          },
+          "maxQueueSeen": 255
+        },
+        {
+          "seed": 5000,
+          "controller": "adaptive",
+          "avgQueue": 227.66722222222222,
+          "totalSwitches": 120,
+          "episodeReward": -10734.980000000001,
+          "totalVehiclesCleared": 6192,
+          "clearedPerLane": {
+            "NS": 2354,
+            "EW": 2338,
+            "NSL": 767,
+            "EWL": 733
+          },
+          "maxQueueSeen": 394
+        },
+        {
+          "seed": 7777,
+          "controller": "adaptive",
+          "avgQueue": 203.67138888888888,
+          "totalSwitches": 121,
+          "episodeReward": -9148.614999999976,
+          "totalVehiclesCleared": 6178,
+          "clearedPerLane": {
+            "NS": 2384,
+            "EW": 2356,
+            "NSL": 717,
+            "EWL": 721
+          },
+          "maxQueueSeen": 322
+        },
+        {
+          "seed": 9999,
+          "controller": "adaptive",
+          "avgQueue": 198.32972222222222,
+          "totalSwitches": 121,
+          "episodeReward": -8854.835000000006,
+          "totalVehiclesCleared": 6178,
+          "clearedPerLane": {
+            "NS": 2359,
+            "EW": 2324,
+            "NSL": 764,
+            "EWL": 731
+          },
+          "maxQueueSeen": 337
+        },
+        {
+          "seed": 1234,
+          "controller": "adaptive",
+          "avgQueue": 226.54861111111111,
+          "totalSwitches": 120,
+          "episodeReward": -10353.785000000003,
+          "totalVehiclesCleared": 6187,
+          "clearedPerLane": {
+            "NS": 2348,
+            "EW": 2344,
+            "NSL": 727,
+            "EWL": 768
+          },
+          "maxQueueSeen": 363
+        },
+        {
+          "seed": 5678,
+          "controller": "adaptive",
+          "avgQueue": 222.74027777777778,
+          "totalSwitches": 121,
+          "episodeReward": -10107.349999999988,
+          "totalVehiclesCleared": 6183,
+          "clearedPerLane": {
+            "NS": 2357,
+            "EW": 2328,
+            "NSL": 767,
+            "EWL": 731
+          },
+          "maxQueueSeen": 397
+        }
+      ],
+      "summary": {
+        "avgQueue": 216.15400462962967,
+        "avgSwitches": 120.91666666666667,
+        "avgReward": -10050.999583333336,
+        "throughput": 6179.583333333333,
+        "stdQueue": 19.32604788311841,
+        "stdSwitches": 1.1149240133549707,
+        "stdReward": 959.9921993052443,
+        "stdThroughput": 15.787433469552786
+      }
+    },
+    "rl": {
+      "episodes": [
+        {
+          "seed": 42,
+          "controller": "rl",
+          "avgQueue": 1296.6888888888889,
+          "totalSwitches": 257,
+          "episodeReward": -55791.33500000004,
+          "totalVehiclesCleared": 4022,
+          "clearedPerLane": {
+            "NS": 1287,
+            "EW": 1280,
+            "NSL": 743,
+            "EWL": 712
+          },
+          "maxQueueSeen": 2535
+        },
+        {
+          "seed": 137,
+          "controller": "rl",
+          "avgQueue": 1226.0611111111111,
+          "totalSwitches": 257,
+          "episodeReward": -53155.77000000002,
+          "totalVehiclesCleared": 4100,
+          "clearedPerLane": {
+            "NS": 1286,
+            "EW": 1280,
+            "NSL": 737,
+            "EWL": 797
+          },
+          "maxQueueSeen": 2458
+        },
+        {
+          "seed": 256,
+          "controller": "rl",
+          "avgQueue": 1244.1155555555556,
+          "totalSwitches": 257,
+          "episodeReward": -52725.50500000002,
+          "totalVehiclesCleared": 4122,
+          "clearedPerLane": {
+            "NS": 1285,
+            "EW": 1280,
+            "NSL": 782,
+            "EWL": 775
+          },
+          "maxQueueSeen": 2455
+        },
+        {
+          "seed": 891,
+          "controller": "rl",
+          "avgQueue": 1265.1725,
+          "totalSwitches": 257,
+          "episodeReward": -53929.93499999995,
+          "totalVehiclesCleared": 4032,
+          "clearedPerLane": {
+            "NS": 1286,
+            "EW": 1280,
+            "NSL": 738,
+            "EWL": 728
+          },
+          "maxQueueSeen": 2493
+        },
+        {
+          "seed": 1024,
+          "controller": "rl",
+          "avgQueue": 1237.9363888888888,
+          "totalSwitches": 257,
+          "episodeReward": -53688.47499999999,
+          "totalVehiclesCleared": 4092,
+          "clearedPerLane": {
+            "NS": 1288,
+            "EW": 1280,
+            "NSL": 757,
+            "EWL": 767
+          },
+          "maxQueueSeen": 2476
+        },
+        {
+          "seed": 2048,
+          "controller": "rl",
+          "avgQueue": 1272.0086111111111,
+          "totalSwitches": 257,
+          "episodeReward": -54247.68500000001,
+          "totalVehiclesCleared": 4089,
+          "clearedPerLane": {
+            "NS": 1288,
+            "EW": 1280,
+            "NSL": 740,
+            "EWL": 781
+          },
+          "maxQueueSeen": 2475
+        },
+        {
+          "seed": 3141,
+          "controller": "rl",
+          "avgQueue": 1212.6363888888889,
+          "totalSwitches": 257,
+          "episodeReward": -51931.915000000015,
+          "totalVehiclesCleared": 3984,
+          "clearedPerLane": {
+            "NS": 1287,
+            "EW": 1280,
+            "NSL": 701,
+            "EWL": 716
+          },
+          "maxQueueSeen": 2402
+        },
+        {
+          "seed": 5000,
+          "controller": "rl",
+          "avgQueue": 1253.0575,
+          "totalSwitches": 257,
+          "episodeReward": -53428.55499999998,
+          "totalVehiclesCleared": 4089,
+          "clearedPerLane": {
+            "NS": 1290,
+            "EW": 1280,
+            "NSL": 780,
+            "EWL": 739
+          },
+          "maxQueueSeen": 2489
+        },
+        {
+          "seed": 7777,
+          "controller": "rl",
+          "avgQueue": 1256.3747222222223,
+          "totalSwitches": 257,
+          "episodeReward": -53200.80500000007,
+          "totalVehiclesCleared": 4030,
+          "clearedPerLane": {
+            "NS": 1288,
+            "EW": 1280,
+            "NSL": 735,
+            "EWL": 727
+          },
+          "maxQueueSeen": 2463
+        },
+        {
+          "seed": 9999,
+          "controller": "rl",
+          "avgQueue": 1233.7697222222223,
+          "totalSwitches": 257,
+          "episodeReward": -52190.755000000005,
+          "totalVehiclesCleared": 4069,
+          "clearedPerLane": {
+            "NS": 1289,
+            "EW": 1280,
+            "NSL": 759,
+            "EWL": 741
+          },
+          "maxQueueSeen": 2444
+        },
+        {
+          "seed": 1234,
+          "controller": "rl",
+          "avgQueue": 1259.1441666666667,
+          "totalSwitches": 257,
+          "episodeReward": -53456.115,
+          "totalVehiclesCleared": 4083,
+          "clearedPerLane": {
+            "NS": 1288,
+            "EW": 1280,
+            "NSL": 746,
+            "EWL": 769
+          },
+          "maxQueueSeen": 2456
+        },
+        {
+          "seed": 5678,
+          "controller": "rl",
+          "avgQueue": 1263.9616666666666,
+          "totalSwitches": 257,
+          "episodeReward": -53488.19999999998,
+          "totalVehiclesCleared": 4088,
+          "clearedPerLane": {
+            "NS": 1287,
+            "EW": 1280,
+            "NSL": 785,
+            "EWL": 736
+          },
+          "maxQueueSeen": 2479
+        }
+      ],
+      "summary": {
+        "avgQueue": 1251.7439351851851,
+        "avgSwitches": 257,
+        "avgReward": -53436.25416666667,
+        "throughput": 4066.6666666666665,
+        "stdQueue": 21.60084645005763,
+        "stdSwitches": 0,
+        "stdReward": 956.0722819841997,
+        "stdThroughput": 38.63792034891227
+      }
+    }
+  }
+}
