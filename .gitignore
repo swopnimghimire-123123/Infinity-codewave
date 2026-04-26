@@ -1,0 +1,6 @@
+﻿.DS_Store
+backend/__pycache__/
+*.pyc
+package-lock.json
+rl_validation_results.json
+frontend/node_modules/
